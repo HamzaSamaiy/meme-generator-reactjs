@@ -1,0 +1,43 @@
+.button{
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    width: 80px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_create{
+    background-color: white;
+    
+}
+
+.btn_create:hover{
+    background-color: rgb(238, 149, 149);
+    
+}
+
+
+
+
+.btn_download{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.btn_download:hover{
+    background-color: rgb(28, 106, 195);
+    
+}
+
+
+.meme_img{
+    width:300px;
+    max-height: 300px;
+    box-shadow: 0px 0px 10px black;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+}

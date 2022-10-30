@@ -7,7 +7,8 @@
 
 }
 .meme_img{
-    width:300px;
+    width:400px;
+    max-width: 450px;
     max-height: 300px;
     box-shadow: 0px 0px 10px black;
     margin: auto;
@@ -16,10 +17,10 @@
 }
 
 .button{
-    margin: auto;
+    
     margin-top: 10px;
     display: block;
-    width: 100px;
+    width: 80px;
     height: 30px;
     border: 1px solid black;
     border-radius: 5px;
@@ -31,8 +32,18 @@
     
 }
 
+.container .btn_create:hover{
+    background-color: rgb(238, 149, 149);
+    
+}
+
 .container .btn_skip{
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(207 173 234);
+  
+}
+
+.container .btn_skip:hover{
+    background-color: rgb(226, 226, 226);
   
 }
 .container .input{
